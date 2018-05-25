@@ -8,10 +8,10 @@ import chapter2.Usuario;
 public class ListaUsuarios {
     public static List<Usuario> get() {
 	
-	Usuario user1 = new Usuario("Paulo Silveira", 150);
+	Usuario user1 = new Usuario("Paulo Silveira", 150, true);
 	Usuario user2 = new Usuario("Rodrigo Turini", 120);
-	Usuario user3 = new Usuario("Guilherme Silveira", 190);
-	Usuario user4 = new Usuario("Rafael Nascimento", 290);
+	Usuario user3 = new Usuario("Guilherme Silveira", 190, true);
+	Usuario user4 = new Usuario("Rafael Nascimento", 290, true);
 	Usuario user5 = new Usuario("João Pereira", 50);
 	Usuario user6 = new Usuario("Sara Morena", 175);
 
